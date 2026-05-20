@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tesis de Mayo - La Ilusión del Muro</title>
+    
+    <!-- Motor matemático MathJax para renderizado impecable en GitHub Pages -->
+    <script src="https://cloudflare.com" async></script>
+    
+    <style>
+        :root {
+            --primary-color: #1f77b4;
+            --accent-color: #d62728;
+            --text-color: #2c3e50;
+            --bg-card: #f8f9fa;
+            --border-color: #e2e8f0;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.7;
+            color: var(--text-color);
+            max-width: 850px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background-color: #ffffff;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            border-bottom: 3px solid var(--primary-color);
+            padding-bottom: 25px;
+        }
+        .site-title {
+            font-size: 2.8rem;
+            font-weight: 800;
+            margin-bottom: 5px;
+            color: var(--text-color);
+            letter-spacing: -1px;
+        }
+        .site-subtitle {
+            font-size: 1.3rem;
+            color: #64748b;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-weight: 500;
+        }
+        nav {
+            background-color: var(--bg-card);
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 40px;
+            border: 1px solid var(--border-color);
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        nav a {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.95rem;
+        }
+        nav a:hover {
+            text-decoration: underline;
+            color: var(--accent-color);
+        }
+        .section-separator {
+            margin: 50px 0;
+            border: 0;
+            border-top: 2px dashed var(--border-color);
+        }
+        h2 {
+            color: var(--primary-color);
+            margin-top: 40px;
+            font-size: 1.8rem;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 8px;
+        }
+        h3 {
+            color: var(--text-color);
+            font-size: 1.35rem;
+            margin-top: 30px;
+        }
+        p {
+            text-align: justify;
+            margin-bottom: 18px;
+            text-indent: 20px;
+        }
+        .discurso-text p {
+            font-style: normal;
+            font-size: 1.05rem;
+        }
+        .math-box {
+            background-color: var(--bg-card);
+            border-left: 4px solid var(--primary-color);
+            padding: 25px;
+            margin: 30px 0;
+            border-radius: 0 8px 8px 0;
+            font-size: 1.4rem;
+            text-align: center;
+            box-shadow: inset 0 1px 3px rgba(0,0,0,0.02);
+        }
+        .graph-container {
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 20px;
+            margin: 40px 0;
+            text-align: center;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+            background-color: #ffffff;
+        }
+        .graph-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 4px;
+            margin-top: 15px;
+        }
+        .variable-list {
+            list-style-type: none;
+            padding-left: 0;
+            margin: 20px 0;
+        }
+        .variable-list li {
+            margin-bottom: 14px;
+            padding-left: 20px;
+            border-left: 3px solid var(--primary-color);
+            text-align: justify;
+        }
+        .highlight {
+            font-weight: bold;
+            color: var(--accent-color);
+        }
+        .protocol-salute {
+            font-weight: bold;
+            margin-bottom: 25px;
+            color: var(--text-color);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="site-title">Tesis de Mayo</div>
+        <div class="site-subtitle">La Ilusión del Muro y la Memoria del Agua</div>
+    </header>
+
+    <!-- Menú de navegación interno rápido -->
+    <nav>
+        <a href="#proclama">📜 Proclama Preliminar</a>
+        <a href="#capitulo1">🏛️ Capítulo 1: El Lenguaje</a>
+        <a href="#capitulo2">🛡️ Capítulo 2: Melos</a>
+        <a href="#capitulo6">📊 Capítulo 6: Modelo Matemático</a>
+    </nav>
+
+    <!-- SECCIÓN: DISCURSO PRINCIPAL -->
+    <section id="proclama" class="discurso-text">
+        <h2>Proclama Preliminar: El Manifiesto</h2>
+        <p class="protocol-salute">Su Santidad, excelentísimos jefes de Estado y de Gobierno de las naciones del mundo, distinguidos delegados, hermanos y hermanas de la gran comunidad humana:</p>
+        
+        <p>Este alegato emana de la condición inextinguible de haber nacido en la isla de Cuba. Expreso estas ideas en lengua española bajo una premisa deliberada: si el francés es el lenguaje del amor y el inglés el del comercio, el español es el idioma de los dioses. Su vasta riqueza semántica y su densidad conceptual nos otorgan la facultad única de desglosar, desde múltiples y profundas dimensiones, la complejidad de los acontecimientos que definen nuestro tiempo. Porque la historia se repite, y los hombres de ayer son los mismos de hoy.</p>
+        
+        <p>No les habla hoy un dirigente político, ni un estratega militar, ni el representante de un gran conglomerado financiero. Les habla una persona común. Alguien que no posee más credencial que su propia conciencia y la vivencia en carne propia de esa verdad circular [p. 18].</p>
+        
+        <p>Al observar este viaje humano de más de diez mil años, descubrimos con serenidad que el doloroso ciclo de romper y empezar no es nuevo. El ego de los hombres se nubla precisamente en la cumbre del poder, repitiendo el mismo error de cálculo. La historia ha dejado registradas las huellas de esta dolencia en los cimientos de los gigantes del pasado: lo vio el desierto con la implacable maquinaria del Imperio Asirio; lo sufrió la soberbia a gran escala de Persia frente a un oponente menor; quedó grabado en el colapso moral y sistémico de Roma; en las bancarrotas sucesivas del absolutismo español; y en el repliegue definitivo del dominio marítimo británico [p. 22]. Todos estos titanes compartieron el mismo patrón: la ilusión de que el éxito del pasado garantizaba la victoria perpetua, olvidando que el abuso introduce una fricción insostenible que precede a su propio abismo [pp. 18, 24].</p>
+        
+        <p>Nos han querido hacer creer, desde que el mundo es mundo, que la geografía de la dignidad se mide en kilómetros cuadrados o en el tamaño de las flotas que custodian el horizonte. Nos han repetido, con la fría soberbia de los que redactan decretos de asfixia, que los fuertes hacen lo que su poder les permite y los pequeños sufren lo que su debilidad les impone.</p>
+        
+        <p>Esa es la vieja mentira que los imperios heredan de siglo en siglo. Se la dijeron los generales de Atenas a los habitantes de la pequeña isla de Melos hace más de dos mil años [p. 19]. Se la dicen hoy, con el mismo tono de superioridad y el mismo desprecio por la vida, los administradores modernos del castigo global a las naciones que se niegan a entregar las llaves de su casa. El bloqueo, el cerco económico, el intento deliberado de rendir a un pueblo por la vía biológica del hambre y la escasez, no son inventos de esta era; son los muros de circunvalación con los que la soberbia intenta tapar el sol de los independientes [p. 19].</p>
+        
+        <p>But here we are gathered by a higher truth, a law of physics and of history that the powerful, blinded by their own ego, always forget: abuse is a seed that always germinated in the ruin of the sower.</p>
+        
+        <p>Atenas aplastó a Melos. Bloqueó sus puertos, desmanteló sus hogares, vendió a sus hijos y creyó que con ese acto de crueldad ejemplar había sellado su dominio eterno sobre el mar [p. 19]. Qué terrible y perfecta es la justicia del tiempo. El ego que se alimenta de la impunidad termina por devorar la razón. Embriagados por la ilusión de que podían vencer siempre, los mismos generales que ordenaron el asedio de la pequeña isla arrastraron a su imperio, pocos meses después, a la desastrosa aventura de Sicilia [p. 19]. Allí cayeron sus barcos, allí se desangró su ejército, y pocos años más tarde, la gran potencia que inventó el bloqueo para otros terminó sitiada, famélica y de rodillas, viendo cómo demolían sus propias murallas al ritmo de las flautas enemigas [p. 19].</p>
+        
+        <p>Ese es el efecto bumerán del poder desmedido. Ningún imperio es eterno, ninguna victoria basada en el abuso es para siempre. Cuando una superpotencia moderna utiliza su banca, sus leyes unilaterales y sus amenazas de pólvora para asfixiar la economía de un país pequeño, no está demostrando fuerza; está sembrando los vientos de su propia decadencia [p. 19]. Está obligando al mundo a buscar otros caminos, está unificando el silencio de los dignos y, sobre todo, está construyendo el pedestal de su propio error futuro. La soberbia es un mal consejero militar y un pésimo estratega político [p. 19].</p>
+        
+        <p>Y es que no podemos olvidar que el mismo Dios que sopesó las acciones de los hombres en aquella experiencia de la antigüedad, es el mismísimo Dios que existe y observa al mundo hoy en día. Nada escapa a su balanza de justicia [p. 21]. Por eso, la tragedia de Melos y la caída de Atenas no son un cuento muerto del pasado; son una señal providencial y una advertencia viva. Dios ha dejado grabada esa huella en la historia como una oportunidad de oro para el mundo de hoy, para que las potencias de nuestra era entiendan que hay que ir por otro camino. Continuar por la senda del abuso y el asedio significaría ignorar la lección divina, haciendo que la humanidad haya caminado y sufrido en balde a lo largo de los siglos [p. 21].</p>
+        
+        <p>A las naciones que hoy se encuentran en condiciones similares, a las islas y a los pueblos cercados por el frío de un invierno extranjero, la moraleja de la historia les deja un mensaje de fe combativa: el asedio duele, la escasez golpea el estómago y cala en los huesos, pero resistir y luchar no es un acto de terquedad, es una inversión en el futuro [p. 19]. Los melios físicos desaparecieron de su isla, pero su nombre es hoy un sinónimo universal de dignidad que estremece las conciencias. Atenas conservó sus templos, pero perdió su alma y su imperio en el mismo foso de soberbia que cavó para otros [p. 19].</p>
+        
+        <p>Que lo sepan los gigantes de la tierra, los de antes y los de ahora: el agua siempre encuentra la forma de burlar el dique [p. 19]. El cerco puede apretar la garganta de un pueblo, pero si el pecho se mantiene firme, el aire de la soberanía no se puede confiscar. La historia no ha terminado. Las murallas de los bloqueadores siempre caen, y al final del camino, cuando el humo de los imperios se disipa, lo único que que da en pie sobre la arena es el derecho inalienable de los pueblos a escribir, con sus propias manos y sin el permiso de nadie, el guion de su propio destino [p. 19].</p>
+        
+        <p>¡Muchas gracias!</p>
+    </section>
+
+    <hr class="section-separator">
+
+    <!-- SECCIÓN: MODELO MATEMÁTICO -->
+    <section id="capitulo6">
+        <h2>Parte III: La Ciencia del Bumerán (Modelo Matemático y Termodinámico)</h2>
+        <h3>Capítulo 6: La Estabilidad del Sistema ($S_t$) y la Trampa del Ego</h3>
+        
+        <p>Hasta ahora, hemos analizado el fenómeno del bloqueo desde las altas dimensiones de la historia y el espíritu. Sin embargo, la verdad universal es armónica: lo que es éticamente reprobable y teológicamente injusto, es también <strong>matemáticamente insostenible</strong> [p. 21]. Las leyes de la física y de las ciencias exactas no responden a ideologías políticas; responden a principios de conservación de energía y dinámica de sistemas.</p>
+        
+        <p>Para que cualquier ciudadano común pueda comprender la ciencia detrás del fin de los imperios, debemos utilizar una metáfora cotidiana: <strong>imagina que el orden geopolítico global es un gran motor en funcionamiento, y el bloqueo económico impuesto a una nación pequeña es como echar arena de forma constante en los engranajes de esa máquina</strong> [pp. 25-26].</p>
+        
+        <p>Al principio, cuando el hegemón arroja los primeros puñados de arena, el motor es tan grande y pesado que parece no inmutarse. Las pantallas de control del imperio muestran que todo está bajo control; la máquina sigue girando y el bloqueador celebra el éxito de su poder. Esta es la <strong>Trampa del Ego</strong>. El poderoso confunde la inercia temporal de su gigantesca estructura con una estabilidad perpetua [p. 18]. Lo que sus analistas no logran cuantificar en sus informes de escritorio es que cada grano de arena introduce una pequeña dosis de resistencia silenciosa. El motor ha comenzado a calentarse por dentro [pp. 25-26].</p>
+
+        <h3>El Modelo Matemático de Estabilidad Sistémica ($S_t$)</h3>
+        <p>Para traducir esta fricción a un lenguaje formal que sirva como el núcleo científico de esta tesis, definimos la <strong>Ecuación de Estabilidad del Sistema ($S_t$)</strong> a lo largo del tiempo ($t$) como [pp. 25-26]:</p>
+
+        <div class="math-box">
+            $$S_t = \frac{\alpha}{\beta \cdot C + \gamma \cdot e^{\sigma t}}$$
+        </div>
+
+        <p>Donde cada variable representa un factor real de la lucha geopolítica:</p>
+        <ul class="variable-list">
+            <li><strong>$S_t$</strong>: El nivel de estabilidad y supervivencia del imperio o sistema hegemónico en un momento dado [pp. 25-26].</li>
+            <li><strong>$\alpha$</strong>: La capacidad económica, militar y tecnológica base que posee el imperio al inicio del asedio [pp. 25-26].</li>
+            <li><strong>$C$</strong>: El nivel de restricciones artificiales, bloqueos y leyes unilaterales impuestas contra el oponente menor [pp. 25-26].</li>
+            <li><strong>$\beta$</strong>: El coeficiente de fricción inicial, es decir, el costo administrativo y político inmediato que paga el imperio por implementar el castigo [pp. 25-26].</li>
+            <li><strong>$\gamma$</strong>: El factor de escala de la entropía acumulada en el entorno global [pp. 25-26].</li>
+            <li><strong>$e^{\sigma t}$</strong>: <span class="highlight">La función exponencial del desorden (entropía)</span>, donde $\sigma$ representa la velocidad a la que el sistema internacional reacciona, se adapta y multiplica el desgaste en contra del bloqueador [pp. 25-26].</li>
+        </ul>
+
+        <p>Al analizar la ecuación, descubrimos matemáticamente el engaño de la impunidad [p. 19]. En los periodos iniciales del asedio ($t \to 0$), el componente exponencial ($e^{\sigma t}$) es extremadamente pequeño, cercano a la unidad. Por lo tanto, el denominador se mantiene bajo y la estabilidad del imperio ($S_t$) se percibe alta y sólida. El muro parece funcionar. Pero la variable tiempo ($t$) es implacable: a medida que avanzan los periodos de asedio, la base matemática del denominador deja de depender del control lineal del imperio ($\beta \cdot C$) y pasa a ser dominada por el crecimiento vertical y descontrolado de la entropía ($\gamma \cdot e^{\sigma t}$) [pp. 25-26].</p>
+
+        <!-- Espacio enlazado exactamente para la gráfica en GitHub -->
+        <div class="graph-container">
+            <h3>Dinámica Termodinámica del Colapso Imperial por Asedio Asimétrico</h3>
+            <img src="grafica_estabilidad.png" alt="Gráfica Dinámica del Colapso Imperial - Tesis de Mayo">
+            <p style="font-size: 0.9rem; color: #64748b; margin-top: 10px; text-align: center;">
+                <em>Visualización del Punto de Quiebre provocado por la acumulación de entropía exponencial en el sistema [pp. 25-26].</em>
+            </p>
+        </div>
+
+        <p>La gráfica hace evidente el bumerán que la soberbia política es incapaz de prever [p. 19]. Durante la primera mitad del tiempo de asedio, la curva azul de estabilidad desciende de forma suave. Sin embargo, la curva de entropía acumulada en el tejido global avanza de forma exponencial. Cuando se cruza el umbral crítico del <strong>Punto de Quiebre</strong>, el denominador de nuestra ecuación estalla y la estabilidad se desploma verticalmente, demostrando que el colapso del bloqueador es una certeza termodinámica [pp. 25-26].</p>
+    </section>
+
+</body>
+</html>
